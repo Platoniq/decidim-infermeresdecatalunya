@@ -24,7 +24,7 @@ gem "figaro"
 
 gem "mail"
 
-gem 'decidim-consultations'
+gem 'decidim-consultations', "0.19.1"
 
 gem 'decidim-comments'
 

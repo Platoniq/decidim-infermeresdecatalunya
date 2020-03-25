@@ -29,6 +29,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+# Do not track secrets!
+/config/application.yml
 
 # Ignore public uploads
 public/uploads
