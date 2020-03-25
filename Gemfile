@@ -4,16 +4,12 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.19.1"
-#gem "decidim", "0.20.0"
-# gem "decidim-consultations", "0.19.1"
-# gem "decidim-initiatives", "0.19.1"
+DECIDIM_VERSION = "0.20"
 
-#gem 'decidim-verifications-csv_email', git: 'git@github.com:CodiTramuntana/decidim-verifications-csv_emails.git'
+gem "decidim", DECIDIM_VERSION
+
 gem 'decidim-verifications-csv_email', git: 'https://github.com/CodiTramuntana/decidim-verifications-csv_emails.git'
-gem 'decidim-consultations', "0.19.1"
-#gem 'decidim-verifications-csv_email'
-gem "decidim-term_customizer"
+gem 'decidim-consultations', DECIDIM_VERSION
 
 gem "decidim-decidim_awesome", git: "https://github.com/Platoniq/decidim-module-decidim_awesome"
 
@@ -29,7 +25,7 @@ gem "mail"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", "0.19.1"
+  gem "decidim-dev", DECIDIM_VERSION
 end
 
 group :development do

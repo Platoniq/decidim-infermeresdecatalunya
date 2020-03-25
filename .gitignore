@@ -34,3 +34,8 @@
 
 # Ignore public uploads
 public/uploads
+
+#Ignore capistrano
+/Capfile
+/config/deploy
+/config/deploy.rb
