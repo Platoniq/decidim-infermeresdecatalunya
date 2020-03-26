@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/Platoniq/decidim-module-decidim_awesome
-  revision: 896d1c8f5ae9cbf875ee04b23315a0c67724eb60
+  revision: 279e008986d6e7c9744798b53c3b90fae4c2fff3
   specs:
     decidim-decidim_awesome (0.1)
       decidim-admin (>= 0.20.0)
@@ -702,6 +702,8 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    sentry-raven (3.0.0)
+      faraday (>= 1.0)
     simplecov (0.18.5)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -802,6 +804,7 @@ DEPENDENCIES
   mail
   passenger
   puma (~> 3.12.2)
+  sentry-raven
   spring (~> 2.0)
   spring-watcher-listen (~> 2.0)
   uglifier (~> 4.1)
