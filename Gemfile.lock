@@ -9,11 +9,11 @@ GIT
 
 GIT
   remote: https://github.com/Platoniq/decidim-module-decidim_awesome
-  revision: c52a1c37ccdb59398db4e9447d6359be3df9a132
+  revision: 896d1c8f5ae9cbf875ee04b23315a0c67724eb60
   specs:
     decidim-decidim_awesome (0.1)
-      decidim-admin (>= 0.19.0)
-      decidim-core (>= 0.19.0)
+      decidim-admin (>= 0.20.0)
+      decidim-core (>= 0.20.0)
 
 GEM
   remote: https://rubygems.org/
