@@ -19,7 +19,6 @@ gem "bootsnap", "~> 1.3"
 gem "puma", "~> 3.12.2"
 gem "uglifier", "~> 4.1"
 gem "faker", "~> 1.9"
-gem "figaro"
 gem "mail"
 gem "sentry-raven"
 
@@ -45,6 +44,7 @@ group :development do
 end
 
 group :production do
+  gem "figaro"
   gem "passenger"
   gem 'delayed_job_active_record'
   gem "daemons"
