@@ -19,6 +19,7 @@ gem "bootsnap", "~> 1.3"
 gem "puma", "~> 3.12.2"
 gem "uglifier", "~> 4.1"
 gem "faker", "~> 1.9"
+gem "whenever", require: false
 gem "mail"
 gem "sentry-raven"
 
