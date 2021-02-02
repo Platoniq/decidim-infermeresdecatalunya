@@ -4,7 +4,9 @@ Free Open-Source participatory democracy, citizen participation and open governm
 
 This is the open-source repository for Decidim-Infermeres-Catalunya, based on [Decidim](https://github.com/decidim/decidim).
 
-![Build](https://github.com/Platoniq/decidim-indices/workflows/Test/badge.svg?branch=master)
+![Build](https://github.com/Platoniq/decidim-infermeresdecatalunya/workflows/Test/badge.svg?branch=master)
+
+![Infermeres Homepage](app/assets/images/screenshot.png)
 
 ## Setting up the application
 
