@@ -39,3 +39,5 @@ public/uploads
 /Capfile
 /config/deploy
 /config/deploy.rb
+
+spec/decidim_dummy_app/*

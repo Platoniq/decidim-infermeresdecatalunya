@@ -1,0 +1,5 @@
+example_id                           | status | run_time        |
+------------------------------------ | ------ | --------------- |
+./spec/lib/overrides_spec.rb[1:1]    | passed | 0.01121 seconds |
+./spec/system/homepage_spec.rb[1:1]  | passed | 7.71 seconds    |
+./spec/system/proposals_spec.rb[1:1] | passed | 7.38 seconds    |
